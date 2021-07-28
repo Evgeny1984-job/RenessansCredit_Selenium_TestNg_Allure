@@ -27,7 +27,7 @@ public class MainTestClass {
     //ВЫПОЛНЕНИЕ ПЕРЕХОДА НА ГЛАВНУЮ СТРАНИЦУ РЕНЕССАНС КРЕДИТ
     @BeforeMethod
     public void setUp() throws Exception{
-        System.setProperty("webdriver.chrome.driver","C:\\RENESSANS_CREDIT_AUTOTESTS\\RENESSANS_CREDIT\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\RenessansCreditAutotests\\drivers\\chromedriver.exe");
         driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
         driver.manage().window().maximize();
