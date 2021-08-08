@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="RenessansCredit_Selenium_TestNg_Allure" />
+        <module name="RENESSANS_CREDIT_SELENIUM_TESTS" />
       </profile>
     </annotationProcessing>
   </component>
